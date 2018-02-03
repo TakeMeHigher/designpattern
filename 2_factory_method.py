@@ -2,7 +2,7 @@
 # create by ctz on 2017/5/25
 
 from abc import abstractmethod, ABCMeta
-
+#工厂模式
 class Payment(metaclass=ABCMeta):
     @abstractmethod
     def pay(self, money):
