@@ -1,8 +1,7 @@
 # coding : utf-8
-# create by ztypl on 2017/5/25
+# create by ctz on 2017/5/25
 
 from abc import abstractmethod, ABCMeta
-
 
 class Payment(metaclass=ABCMeta):
     @abstractmethod
