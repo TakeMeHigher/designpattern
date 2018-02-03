@@ -2,7 +2,7 @@
 # create by ctz on 2017/5/25
 
 from abc import abstractmethod, ABCMeta
-
+#组合模式
 class Graphic(metaclass=ABCMeta):
     @abstractmethod
     def draw(self):
