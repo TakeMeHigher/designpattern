@@ -1,6 +1,7 @@
 # coding : utf-8
 # create by ctz on 2017/5/24
 
+#简单工厂模式
 from abc import abstractmethod, ABCMeta
 
 
@@ -8,6 +9,7 @@ class Payment(metaclass=ABCMeta):
     @abstractmethod
     def pay(self, money):
         raise NotImplementedError
+
 
 
 class Alipay(Payment):
